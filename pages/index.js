@@ -25,12 +25,12 @@ export default function Home({ allPostsData }) {
   return (
     <Layout home>
       <Head>
-        <title>
-          {siteTitle}
-        </title>
+        <title>{siteTitle}</title>
       </Head>
       <section className={utilStyle.headingMd}>
-        <p>私は経営者であり、フルスタックエンジニアでもあります。</p>
+        <p>
+          私は経営者であり、Next.jsエンジニアでもあります。好きなフレームワークはNext.jsです。
+        </p>
       </section>
 
       <section>
